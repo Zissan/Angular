@@ -1,2 +1,39 @@
 GETTING STARTED WITH ANGULAR WITHOUT CLI
-1. 
+1. Created a new branch, angular-without-cli,
+2. then executed -- git fetch
+3. then executed -- git checkout angular-without-cli
+4. then executed -- git status
+5. pointed the VS Code to the current directory
+6. added package.json -- git init
+7. then execute -- npm install html-webpack-plugin copy-webpack-plugin typescript webpack --save-dev
+	The above dependencies will be added to dev dependencies section, as because, the above packages
+	are not required for running the application
+8. then execute -- npm install ejs express
+9. then execute -- copy nul webpack.config.js
+	this will create a copy of webpack.config.js
+9. then execute -- copy nul server.js
+10. mkdir src -->  cd src --> mkdir assets --> cd assets --> mkdir img --> mkdir styles -->
+	cd.. --> cd.. --> cd src
+11. then execute -- copy nul index.html
+12. then execute -- copy nul main.ts
+13. cd assets\styles
+14. copy nul main.css
+15. npm install @angular/common 
+				@angular/compiler 
+				@angular/core 
+				@angular/platform-browser 
+				@angular/platform-browser-dynamic 
+				rxjs 
+				zone.js
+16. npm install @ngtools/webpack 
+				@angular/compiler-cli 
+				script-ext-html-webpack-plugin --save-dev
+
+Below is the link for reference::
+https://www.twilio.com/blog/2018/03/building-an-app-from-scratch-with-angular-and-webpack.html
+
+**********************************************************************************************
+**********************************************************************************************
+*****************************************HAPPY CODING*****************************************
+**********************************************************************************************
+**********************************************************************************************
