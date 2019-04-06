@@ -1,0 +1,10 @@
+1. Created a git repository
+2. Open the Visual Studio Code
+3. Pointed to the required directory
+4. Then executed -- git init
+	This is done to start a new Git repository for an existing code base.
+5. Then added a file -- read-me.txt -- under it
+6. Then executed -- git add read-me.txt
+	This command updates the index using the current content found in the working tree, to prepare the content staged 	for the next commit. 
+7. Then executed -- git commit -m "added read me file"
+8. Then executed -- git push -u origin master
