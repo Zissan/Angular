@@ -1,0 +1,15 @@
+{
+  "name": "angular-using-webpack",
+  "version": "1.0.0",
+  "description": "Angular using webpack. The same can be achieved by means of Angular CLI. However, sometimes CLI is not an option for your project or you just want to have better control on what’s going on behind the scenes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "webpack"
+  ],
+  "author": "zissan chowdhury",
+  "license": "ISC"
+}
