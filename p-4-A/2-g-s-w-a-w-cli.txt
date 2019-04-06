@@ -5,4 +5,5 @@ GETTING STARTED WITH ANGULAR WITHOUT CLI
 4. then executed -- git status
 5. pointed the VS Code to the current directory
 6. added package.json -- git init
-7. 
+7. then execute -- npm install html-webpack-plugin copy-webpack-plugin typescript webpack --save-dev
+8. then execute -- npm install ejs express
