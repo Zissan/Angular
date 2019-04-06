@@ -1,2 +1,8 @@
 GETTING STARTED WITH ANGULAR WITHOUT CLI
-1. 
+1. Created a new branch, angular-without-cli,
+2. then executed -- git fetch
+3. then executed -- git checkout angular-without-cli
+4. then executed -- git status
+5. pointed the VS Code to the current directory
+6. added package.json -- git init
+7. 
