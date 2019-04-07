@@ -1,0 +1,7 @@
+GETTING STARTED WITH ANGULAR WITH CLI
+1. Created a new branch, p5a,
+2. then executed -- git checkout p5a
+3. then executed -- ng new p5a
+4. then executed -- git add --all
+5. then executed -- git commit -m "new angular project to demonstrate data binding featur of angular"
+6. then executed -- ng g component profile
