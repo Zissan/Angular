@@ -1,0 +1,6 @@
+GETTING STARTED WITH ANGULAR WITH CLI
+1. Created a new branch, angular-with-cli,
+2. then executed -- git checkout angular-with-cli
+3. then executed -- ng new p-4-b --routing=false
+4. then executed -- git add --all
+5. then executed -- git commit -m "new angular project using cli has been created"
