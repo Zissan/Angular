@@ -1,0 +1,55 @@
+1. Created the app using -- ng new localiztion-demo
+2. Then added the below snippet into the app.component.html
+***********************************************************
+<h1 i18n>
+  Localization Demo - i18n
+</h1>
+
+<h3 i18n="@@welcomeMessage">
+  Hello, World
+</h3>
+<p>No change will be observed with culture change</p>
+<hr />
+***********************************************************
+Then executed -- ng xi18n --output-path translate
+
+On execution, translate folder will be created under the src directory.
+
+under it messages.xlf.
+
+Now as per your languages you are going tosupport for, copy the file and create the files.
+In my case, i renamed it to messsages.es.xlf and messages.en.xlf
+
+The only difference is the target node added to each trans-unit node.
+
+In our current case, we do have only one component.
+In case of more than one component re execute the -- ng xi18n --outputPath translate
+************************************************************
+
+Move angular.json
+
+build and serve property of the object add the below snippet
+
+"build": {
+    "builder": "@angular-devkit/build-angular:browser",
+    ....
+    "configurations": {
+        ...
+        "es": {
+            "aot": true,
+            "i18nFile": "src/translate/messages.es.xlf",
+            "i18nFormat": "xlf",
+            "i18nLocale": "es",
+            "i18nMissingTranslation": "error"
+        }
+    }
+},
+"serve": {
+    ...
+    "configurations": {
+        ...
+        "es": {
+            "browserTarget": "localization-demo:build:es"
+        }
+    }
+}
