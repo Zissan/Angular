@@ -1,7 +1,9 @@
 import {
   async,
   ComponentFixture,
-  TestBed
+  TestBed,
+  tick,
+  fakeAsync
 } from '@angular/core/testing';
 
 import { MissionService } from '../service/mission.service';
@@ -39,12 +41,6 @@ function appModuleSetup(){
     }));
 
     it('should contain the Fly to the moon announcement',() => {
-      //arrange
-      let announcement: String;
-      missionService.missionAnnounced$.subscribe( a => {
-        announcement = a;
-      })
-
       //act
       missionService.announceMission('Fly to the moon!');
       //assert
