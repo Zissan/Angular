@@ -53,3 +53,9 @@ build and serve property of the object add the below snippet
         }
     }
 }
+
+*****************************************************************
+Now execute - 
+
+ng serve --confguration=es
+*****************************************************************

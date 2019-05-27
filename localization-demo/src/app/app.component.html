@@ -1,3 +1,8 @@
+<ng-container *ngFor="let language of languageList">
+  <a href="/{{language.code}}/">
+  <button class="button">{{language.label}}</button>
+  </a>
+ </ng-container>
 <h1 i18n>
   Localization Demo - i18n
 </h1>
